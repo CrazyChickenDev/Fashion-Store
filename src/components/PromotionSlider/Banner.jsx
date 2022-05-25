@@ -14,7 +14,7 @@ const Banner = () => {
                                 </span>
                                 <div   className="icon-box-content">
                                     <h3   className="icon-box-title">Payment & Delivery</h3>
-                                    <p>Free shipping for orders over $50</p>
+                                    <p>Free shipping for orders over $100</p>
                                 </div>
                             </div>
                         </div>

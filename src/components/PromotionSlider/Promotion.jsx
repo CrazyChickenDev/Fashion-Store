@@ -2,9 +2,9 @@ import React from 'react'
 //Components
 import Banner from './Banner'
 // Images
-import product1 from '../../assets/images/demos/demo-6/deal/bg-1.jpg'
-import product2 from '../../assets/images/demos/demo-6/deal/product-2.jpg'
-import product3 from '../../assets/images/demos/demo-6/deal/product-1.jpg'
+import product1 from '../../assets/images/demos/demo-6/deal/bg-1.png'
+import product2 from '../../assets/images/demos/demo-6/deal/product-2.png'
+import product3 from '../../assets/images/demos/demo-6/deal/product-1.png'
 
 const Promotion = () => {
     return (
