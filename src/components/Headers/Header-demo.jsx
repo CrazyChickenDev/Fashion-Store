@@ -46,7 +46,7 @@ const Header = ({ hidden, toggleMobileMenu, currentUser, logOut, history }) => {
                   <a href='/'>Links</a>
                   <ul>
                     <li>
-                      <a href='tel:#'><i className='icon-phone'></i>Call: +0123 456 789</a>
+                      <a href='tel:#'><i className='icon-phone'></i>Call: +234 811 482 9414 </a>
                     </li>
                   </ul>
                 </li>
@@ -54,10 +54,9 @@ const Header = ({ hidden, toggleMobileMenu, currentUser, logOut, history }) => {
             </div>
             <div className='header-right'>
               <div className='social-icons social-icons-color'>
-                <a href="https://www.facebook.com/emoeror.kushcash" className="social-icon" title="Facebook" rel="noreferrer" target="_blank"><i className="icon-facebook-f"></i></a>
-                <a href="https://twitter.com/_iankuria?lang=en" className="social-icon" title="Twitter" rel="noreferrer" target="_blank"><i className="icon-twitter"></i></a>
-                <a href="https://www.instagram.com/_iankuria/?hl=en" rel="noreferrer" className="social-icon" title="Instagram" target="_blank"><i className="icon-instagram"></i></a>
-                <a href="https://github.com/Kuria-byte" className="social-icon" title="Youtube" rel="noreferrer" target="_blank"><i className="icon-github"></i></a>
+                <a href="https://twitter.com/olajazzNFT" className="social-icon" title="Twitter" rel="noreferrer" target="_blank"><i className="icon-twitter"></i></a>
+                <a href="https://www.instagram.com/olajazznft" rel="noreferrer" className="social-icon" title="Instagram" target="_blank"><i className="icon-instagram"></i></a>
+                <a href="https://www.youtube.com/channel/UC3vhaMyTPBEalnYh4I5v3yA/about" className="social-icon" title="Youtube" rel="noreferrer" target="_blank"><i className="icon-youtube"></i></a>
               </div>
               <ul className='top-menu top-link-menu'>
                 <li>
