@@ -1,5 +1,5 @@
-import banner1 from '../../assets/images/demos/demo-6/banners/women14.jpg'
-import banner2 from '../../assets/images/demos/demo-6/banners/men12.jpg'
+import banner1 from '../../assets/images/demos/demo-6/banners/Yousnooze.png'
+import banner2 from '../../assets/images/demos/demo-6/banners/NFT.png'
 
 
 const INITIAL_STATE ={
@@ -23,14 +23,14 @@ const INITIAL_STATE ={
           linkUrl: 'shop/sneakers'
         },
         {
-          title: 'womens',
+          title: 'You Snooze You Lose Collection',
           imageUrl: banner1,
           size: 'large',
           id: 2,
           linkUrl: 'shop/womens'
         },
         {
-          title: 'mens',
+          title: 'NFT Collection',
           imageUrl: banner2,
           size: 'large',
           id: 1,

@@ -29,7 +29,7 @@ const Promotion = () => {
                                     </figure>
 
                                     <div className="product-body">
-                                        <h3 className="product-title"><a href="/">Elasticated shorts</a></h3>
+                                        <h3 className="product-title"><a href="/">You Snooze You Lose</a></h3>
                                         <div className="product-price">
                                             <span className="new-price">Now $24.99</span>
                                             {/* <span className="old-price">Was $30.99</span> */}
@@ -45,10 +45,10 @@ const Promotion = () => {
                                     </figure>
 
                                     <div className="product-body">
-                                        <h3 className="product-title"><a href="/">Fine-knit jumper</a></h3>
+                                        <h3 className="product-title"><a href="/">NFT Inspired</a></h3>
                                         <div className="product-price">
-                                            <span className="new-price">Now $8.99</span>
-                                            <span className="old-price">Was $17.99</span>
+                                            <span className="new-price">Now $28.99</span>
+                                            <span className="old-price">Was $37.99</span>
                                         </div>
                                     </div>
                                     <a href='/shop' className="action">shop now</a>
