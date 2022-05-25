@@ -43,8 +43,8 @@ function HomeSlider() {
                     <OwlCarousel {...owl_options} nav>
                     <div className="intro-slide" style={{ backgroundImage: `url(${Slider1})`}} >
                         <div className="container intro-content text-center">
-                            <h3 className="intro-subtitle text-white">You're Looking Good</h3>
-                              <h1 className="intro-title text-white">Tailored Look</h1>
+                            <h3 className="intro-subtitle text-white">Looking Good with</h3>
+                              <h1 className="intro-title text-white">Tailored Looks</h1>
                             <a href="/shop" className="btn btn-outline-white-4">
                                 <span>Discover More</span>
                             </a>
