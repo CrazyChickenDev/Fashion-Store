@@ -2,7 +2,7 @@ import React from 'react'
 //component
 import BrandsBanner from './BrandsBanner'
 //images
-import banner from '../../assets/images/demos/demo-6/banners/sweater.jpg'
+import banner from '../../assets/images/demos/demo-6/banners/sweater.png'
 
 
 const Newsletter = () => {
@@ -32,7 +32,7 @@ const Newsletter = () => {
                         <div className="cta cta-box">
                             <div className="cta-content">
                                 <h3 className="cta-title">Subscribe To Our Newsletter</h3>
-                                <p>Sign up now for <span className="primary-color">10% discount</span> on first order. Customise my news:</p>
+                                <p>Sign up now for <span className="primary-color">10% discount</span> on first order.</p>
 
                                 <form action="#">
                                     <input type="email" className="form-control" placeholder="Enter your Email Address" aria-label="Email Adress" required />
