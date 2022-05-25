@@ -14,9 +14,8 @@ const CollectionPreview = ({ title, imageUrl, size, history, linkUrl, match }) =
 
                     <div className="banner-content banner-content-center" >
                         <h4 className="banner-subtitle text-white"><a href="/">New in</a></h4>
-                        <h3 className="banner-title text-white"><a href="/">End of Season<br /></a></h3>
+                        <h3 className="banner-title text-white"><a href="/"><strong>{title.toUpperCase()}</strong></a></h3>
                         <a href="/shop" className="btn btn-outline-white banner-link underline" >Shop Now</a>
-                       
                     </div>
                 </div>
             </div>

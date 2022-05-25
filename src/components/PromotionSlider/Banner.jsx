@@ -4,7 +4,7 @@ import React from 'react'
 const Banner = () => {
     return (
         <div>
-            <div   className="pt-4 pb-3" style={{ backgroundColor: ' #222' }}>
+            <div   className="pt-4 pb-3" style={{ backgroundColor: ' #000' }}>
                 <div   className="container">
                     <div   className="row justify-content-center">
                         <div   className="col-lg-3 col-sm-6">
@@ -14,7 +14,7 @@ const Banner = () => {
                                 </span>
                                 <div   className="icon-box-content">
                                     <h3   className="icon-box-title">Payment & Delivery</h3>
-                                    <p>Free shipping for orders over $100</p>
+                                    <p>Free shipping for orders over $150</p>
                                 </div>
                             </div>
                         </div>
@@ -50,7 +50,7 @@ const Banner = () => {
                                 </span>
                                 <div   className="icon-box-content">
                                     <h3   className="icon-box-title">Quality Support</h3>
-                                    <p>Alway online feedback 24/7</p>
+                                    <p>Always online feedback 24/7</p>
                                 </div>
                             </div>
                         </div>
