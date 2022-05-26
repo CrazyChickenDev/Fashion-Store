@@ -3,7 +3,7 @@ import { connect } from 'react-redux'
 //utils
 import { selectCollection, selectCollectioinForPreview } from '../../Redux/Shop/shop.selector'
 //images
-import imageBackground from '../../assets/images/page-header-bg.jpg'
+import imageBackground from '../../assets/images/page-header-bg.png'
 //components
 
 import CollectionHolder from '../Product/collection-holder'

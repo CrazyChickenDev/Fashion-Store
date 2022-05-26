@@ -5,7 +5,7 @@ import { createStructuredSelector } from 'reselect'
 import { selectCollectioinForPreview } from '../../Redux/Shop/shop.selector'
 import Toastify from 'toastify-js'
 //images
-import imageBackground from '../../assets/images/page-header-bg.jpg'
+import imageBackground from '../../assets/images/page-header-bg.png'
 //component
 import CollectionHolder from '../Product/collection-holder'
 
@@ -15,7 +15,7 @@ const ShopPage = ({ collections }) => {
 
 
 
-    const [userSelect, setSelected] = useState('Womens')
+    const [userSelect, setSelected] = useState('You Snooze You Loose')
 
 
     const handleRadioSelect = (event) => {
@@ -59,9 +59,9 @@ const ShopPage = ({ collections }) => {
                                 <label for="sortby">Sort by:</label>
                                 <div className="select-custom">
                                     <select className="form-control" onChange={handleRadioSelect}>
-                                        <option value="Hats" >Hats</option>
-                                        <option selected value="Womens">Women</option>
-                                        <option value="Mens">Men</option>
+                                        <option value="Hoodies" >Hoodies</option>
+                                        <option selected value="Womens">Women Tees</option>
+                                        <option value="Mens">Men Tees</option>
                                         <option value="Jackets">Jackets</option>
                                         <option value="Sneakers">Sneakers</option>
                                     </select>
@@ -83,7 +83,7 @@ const ShopPage = ({ collections }) => {
                         <div className="load-more-container text-center">
                             <span className="btn btn-outline-darker btn-load-more" onClick={() => Toastify({
                                 text: `More Items coming soon 🎉`,
-                                backgroundColor: "linear-gradient(to right top, #cc9966, #c6946c, #bf9072, #b68c77, #ac897b)",
+                                backgroundColor: "#b45227",
                                 duration: 8000,
                                 newWindow: true,
                                 close: true,

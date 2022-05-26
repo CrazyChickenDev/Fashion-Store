@@ -8,7 +8,7 @@ import CartSummary from '../Cart/CartSummary'
 // utils
 import { selectCartItems, selectCartTotal} from '../../Redux/Cart/cart.selector'
 //images
-import imageBackground from '../../assets/images/page-header-bg.jpg'
+import imageBackground from '../../assets/images/page-header-bg.png'
 
 
 
