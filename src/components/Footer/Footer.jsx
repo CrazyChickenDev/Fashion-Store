@@ -1,6 +1,6 @@
 import React from 'react'
 //Images
-import Logo from '../../Images/logo1.svg'
+import Logo from '../../Images/logo.svg'
 import Image1 from '../../assets/images/payments.png'
 
 const Footer = () => {
@@ -13,13 +13,12 @@ const Footer = () => {
                             <div className="col-sm-6 col-lg-3">
                                 <div className="widget widget-about">
                                     <h4 className="widget-title">about shop</h4>
-                                    <p>A modern fashion store where design meets aeshetics, elegance and sophistication </p>
+                                    <p>OlajazzNFT is an Edo Born, phoenix based fashion and passion. A board established in the year 2022 by a fashion model Olajazz. The brand is rooted in his idea for Fashion, Art, Poems and Music.</p>
 
                                     <div className="social-icons">
-                                        <a href="https://www.facebook.com/emoeror.kushcash" className="social-icon" title="Facebook" rel="noreferrer" target="_blank"><i className="icon-facebook-f"></i></a>
-                                        <a href="https://twitter.com/_iankuria?lang=en" className="social-icon" title="Twitter" rel="noreferrer" target="_blank"><i className="icon-twitter"></i></a>
-                                        <a href="https://www.instagram.com/_iankuria/?hl=en" rel="noreferrer" className="social-icon" title="Instagram" target="_blank"><i className="icon-instagram"></i></a>
-                                        <a href="https://twitter.com/_iankuria?lang=en" className="social-icon" title="Youtube" rel="noreferrer" target="_blank"><i className="icon-youtube"></i></a>
+                                        <a href="https://twitter.com/olajazzNFT" className="social-icon" title="Twitter" rel="noreferrer" target="_blank"><i className="icon-twitter"></i></a>
+                                        <a href="https://www.instagram.com/olajazznft" rel="noreferrer" className="social-icon" title="Instagram" target="_blank"><i className="icon-instagram"></i></a>
+                                        <a href="https://www.youtube.com/channel/UC3vhaMyTPBEalnYh4I5v3yA" className="social-icon" title="Youtube" rel="noreferrer" target="_blank"><i className="icon-youtube"></i></a>
                                     </div>
                                 </div>
                             </div>
@@ -76,7 +75,7 @@ const Footer = () => {
                             <img src={Image1} alt="Payment methods" width="272" height="20" />
                         </figure>
                         <img src={Logo} alt="FooterLogo" width="82" height="25" />
-                        <p className="footer-copyright">Copyright © 2021 KuriaByte. All Rights Reserved.</p>
+                        <p className="footer-copyright">Copyright © 2022 OlajazzNFT. All Rights Reserved.</p>
                     </div>
                 </div>
             </footer>
