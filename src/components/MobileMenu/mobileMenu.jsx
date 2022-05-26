@@ -39,47 +39,19 @@ const MobileMenu =({toggleMobileMenu}) => {
                                 </ul>
                             </li>
                             <li>
-                                <a href="/shop" className="sf-with-ul">Product</a>
+                                <a href="/shop" className="sf-with-ul">About</a>
                                 <ul>
-                                    <li><a href="product.html">Default</a></li>
+                                    <li><a href="product.html">About</a></li>
                                     
                                 </ul>
-                            </li>
-                            <li>
-                                <a href="/">Wish List</a>
-                                <ul>
-                                    <li>
-                                        <a href="/">About</a>
-
-                                        <ul>
-                                            <li><a href="/">About 01</a></li>
-                                            <li><a href="/">About 02</a></li>
-                                        </ul>
-                                    </li>
-                                    <li>
-                                        <a href="/">Contact</a>
-
-                                        <ul>
-                                            <li><a href="/">Contact 01</a></li>
-                                            <li><a href="/">Contact 02</a></li>
-                                        </ul>
-                                    </li>
-                                    <li><a href="/">Login</a></li>
-                                    <li><a href="/">FAQs</a></li>
-                                    <li><a href="/">Error 404</a></li>
-                                    <li><a href="/l">Coming Soon</a></li>
-                                </ul>
-                            </li>
-                            
-                         
-                        </ul>
+                            </li>                        
+                            </ul>
                     </nav>
 
                     <div className="social-icons">
-                        <a href="/" className="social-icon" target="_blank" title="Facebook"><i className="icon-facebook-f"></i></a>
-                        <a href="/" className="social-icon" target="_blank" title="Twitter"><i className="icon-twitter"></i></a>
-                        <a href="/" className="social-icon" target="_blank" title="Instagram"><i className="icon-instagram"></i></a>
-                        <a href="/" className="social-icon" target="_blank" title="Youtube"><i className="icon-youtube"></i></a>
+                        <a href="https://twitter.com/olajazzNFT" className="social-icon" target="_blank" title="Twitter"><i className="icon-twitter"></i></a>
+                        <a href="https://www.instagram.com/olajazznft" className="social-icon" target="_blank" title="Instagram"><i className="icon-instagram"></i></a>
+                        <a href="https://www.youtube.com/channel/UC3vhaMyTPBEalnYh4I5v3yA" className="social-icon" target="_blank" title="Youtube"><i className="icon-youtube"></i></a>
                     </div>
                 </div>
             </div>
