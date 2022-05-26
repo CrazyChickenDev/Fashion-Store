@@ -18,7 +18,7 @@ const ShopProduct = ({ item, title, addCartItems , addWishItem}) => {
             close: true,
             gravity: "bottom", // `top` or `bottom`
             position: 'center', // `left`, `center` or `right`
-            backgroundColor: "linear-gradient(to right top, #cc9966, #c6946c, #bf9072, #b68c77, #ac897b)",
+            backgroundColor: "#b45227",
             stopOnFocus: true,
         }).showToast();
     }
@@ -32,7 +32,7 @@ const ShopProduct = ({ item, title, addCartItems , addWishItem}) => {
           close: true,
           gravity: "bottom", // `top` or `bottom`
           position: 'center', // `left`, `center` or `right`
-          backgroundColor: "linear-gradient(to right top, #cc9966, #c6946c, #bf9072, #b68c77, #ac897b)",
+          backgroundColor: "#b45227",
           stopOnFocus: true, 
         }).showToast();
       }
@@ -72,7 +72,7 @@ const ShopProduct = ({ item, title, addCartItems , addWishItem}) => {
                     </div>
 
                     <div className="product-nav product-nav-dots">
-                        <span style={{ background: ' #cc9966' }}><span className="sr-only">Color name</span></span>
+                        <span style={{ background: ' #b45227' }}><span className="sr-only">Color name</span></span>
                         <span className="active" style={{ background: '#ebebeb' }}><span className="sr-only">Color name</span></span>
                     </div>
                 </div>

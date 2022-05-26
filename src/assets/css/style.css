@@ -8261,7 +8261,7 @@ p {
 }
 
 .product.product-11 a:hover, .product.product-11 a:focus {
-    color: #cc9966
+    color: #b45227
 }
 
 .product.product-11 .btn-product-icon {
@@ -8271,8 +8271,8 @@ p {
 
 .product.product-11 .btn-product-icon:hover, .product.product-11 .btn-product-icon:focus {
     color: #fff;
-    background-color: #cc9966;
-    border-color: #cc9966
+    background-color: #b45227;
+    border-color: #b45227
 }
 
 .product.product-11 .product-price {
@@ -8307,8 +8307,8 @@ p {
 
 .product.product-11 .btn-product:hover, .product.product-11 .btn-product:focus {
     color: #fff;
-    border-color: #cc9966;
-    background-color: #cc9966
+    border-color: #b45227;
+    background-color: #b45227;
 }
 
 .product.product-11 .btn-product:hover span, .product.product-11 .btn-product:focus span {

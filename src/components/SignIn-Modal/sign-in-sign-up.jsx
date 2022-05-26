@@ -60,7 +60,7 @@ class SignInModal extends Component {
 
         Toastify({
             text: 'Oops! Facebook Login is still under development, we suggest you use Google or email to sign up',
-            backgroundColor: "linear-gradient(to right top, #cc9966, #c6946c, #bf9072, #b68c77, #ac897b)",
+            backgroundColor: "#b45227",
             className: "info",
             duration: 8000,
             newWindow: true,

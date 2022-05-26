@@ -19,7 +19,7 @@ const ShopItem = ({ item, addCartItems , addWishItem}) => {
       close: true,
       gravity: "bottom", // `top` or `bottom`
       position: 'center', // `left`, `center` or `right`
-      backgroundColor: "linear-gradient(to right top, #cc9966, #c6946c, #bf9072, #b68c77, #ac897b)",
+      backgroundColor: "#b45227",
       stopOnFocus: true, 
     }).showToast();
   }
@@ -33,7 +33,7 @@ const ShopItem = ({ item, addCartItems , addWishItem}) => {
       close: true,
       gravity: "bottom", // `top` or `bottom`
       position: 'center', // `left`, `center` or `right`
-      backgroundColor: "linear-gradient(to right top, #cc9966, #c6946c, #bf9072, #b68c77, #ac897b)",
+      backgroundColor: "#b45227",
       stopOnFocus: true, 
     }).showToast();
   }

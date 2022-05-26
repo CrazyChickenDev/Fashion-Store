@@ -30,7 +30,7 @@ const Header = ({ hidden, toggleMobileMenu, currentUser, logOut, history }) => {
       close: true,
       gravity: "bottom", // `top` or `bottom`
       position: 'center', // `left`, `center` or `right`
-      backgroundColor: "linear-gradient(to right top, #cc9966, #c6946c, #bf9072, #b68c77, #ac897b)",
+      backgroundColor: "#b45227",
       stopOnFocus: true,
     }).showToast();
   };
@@ -56,7 +56,7 @@ const Header = ({ hidden, toggleMobileMenu, currentUser, logOut, history }) => {
               <div className='social-icons social-icons-color'>
                 <a href="https://twitter.com/olajazzNFT" className="social-icon" title="Twitter" rel="noreferrer" target="_blank"><i className="icon-twitter"></i></a>
                 <a href="https://www.instagram.com/olajazznft" rel="noreferrer" className="social-icon" title="Instagram" target="_blank"><i className="icon-instagram"></i></a>
-                <a href="https://www.youtube.com/channel/UC3vhaMyTPBEalnYh4I5v3yA/about" className="social-icon" title="Youtube" rel="noreferrer" target="_blank"><i className="icon-youtube"></i></a>
+                <a href="https://www.youtube.com/channel/UC3vhaMyTPBEalnYh4I5v3yA" className="social-icon" title="Youtube" rel="noreferrer" target="_blank"><i className="icon-youtube"></i></a>
               </div>
               <ul className='top-menu top-link-menu'>
                 <li>

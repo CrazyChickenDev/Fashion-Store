@@ -49,7 +49,7 @@ export function* signInWithGoogle() {
         yield put(googleSignInSuccess({ id: userSnapShot.id, ...userSnapShot.data() }));
         yield (Toastify({
             text: `Welcome ${userSnapShot.data().displayName} 🎉`,
-            backgroundColor: "linear-gradient(to right top, #cc9966, #c6946c, #bf9072, #b68c77, #ac897b)",
+            backgroundColor: "#b45227",
             className: "success",
             duration: 7000,
             newWindow: true,
@@ -85,7 +85,7 @@ export function* signInWithEmail({ payload: { email, password } }) {
         yield put(emailSignInSuccess({ id: userSnapShot.id, ...userSnapShot.data() }));
         yield (Toastify({
             text: `Signed in as ${userSnapShot.data().email} 🎉`,
-            backgroundColor: "linear-gradient(to right top, #cc9966, #c6946c, #bf9072, #b68c77, #ac897b)",
+            backgroundColor: "#b45227",
             className: "success",
             duration: 7000,
             newWindow: true,
