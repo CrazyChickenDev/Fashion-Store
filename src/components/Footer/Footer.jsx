@@ -1,6 +1,6 @@
 import React from 'react'
 //Images
-import Logo from '../../Images/logo.svg'
+import Logo from '../../Images/logon.png'
 import Image1 from '../../assets/images/payments.png'
 
 const Footer = () => {
@@ -74,7 +74,7 @@ const Footer = () => {
                         <figure className="footer-payments">
                             <img src={Image1} alt="Payment methods" width="272" height="20" />
                         </figure>
-                        <img src={Logo} alt="FooterLogo" width="82" height="25" />
+                        <img src={Logo} alt="FooterLogo" width="102" height="45" />
                         <p className="footer-copyright">Copyright © 2022 OlajazzNFT. All Rights Reserved.</p>
                     </div>
                 </div>
