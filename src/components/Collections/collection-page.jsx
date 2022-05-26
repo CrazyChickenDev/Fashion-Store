@@ -228,7 +228,7 @@ const CollectionPage = ({ collection, collections }) => {
                                         <div className="filter-colors">
                                             <a href="/" style={{ background: '#b87145' }}><span className="sr-only">Color Name</span></a>
                                             <a href="/" style={{ background: '#f0c04a' }}><span className="sr-only">Color Name</span></a>
-                                            <a href="/" style={{ background: '#333333' }}><span className="sr-only">Color Name</span></a>
+                                            <a href="/" style={{ background: '#000' }}><span className="sr-only">Color Name</span></a>
                                             <a href="/" className="selected" style={{ background: '#cc3333' }}><span className="sr-only">Color Name</span></a>
                                             <a href="/" style={{ background: '#3399cc' }}><span className="sr-only">Color Name</span></a>
                                             <a href="/" style={{ background: '#669933' }}><span className="sr-only">Color Name</span></a>
