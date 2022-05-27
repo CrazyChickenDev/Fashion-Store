@@ -32,7 +32,6 @@ const Promotion = () => {
                                         <h3 className="product-title"><a href="/">You Snooze You Lose</a></h3>
                                         <div className="product-price">
                                             <span className="">Now $24.99</span>
-                                            <span className="old-price">Was $34.99</span>
                                         </div>
                                     </div>
                                     <span className="action">shop now</span>
@@ -48,7 +47,6 @@ const Promotion = () => {
                                         <h3 className="product-title"><a href="/">NFT Inspired</a></h3>
                                         <div className="product-price">
                                             <span className="">Now $28.99</span>
-                                            <span className="old-price">Was $37.99</span>
                                         </div>
                                     </div>
                                     <a href='/shop' className="action">shop now</a>
